@@ -12,7 +12,7 @@
 
 后台数据地址：https://github.com/Hanxueqing/Eleme-API
 
-在线项目手册：https://hanxueqing.github.io/Douban-Movie
+在线项目手册：https://hanxueqing.github.io/React-Eleme/#/
 
 项目访问地址：http://39.96.84.220/react-ele/#/home
 
