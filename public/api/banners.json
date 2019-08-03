@@ -1,0 +1,22 @@
+{
+    "Banners":[
+        {
+            "id": 0,
+            "src": "https://img10.360buyimg.com/n1/s450x450_jfs/t1/30693/17/7599/332089/5c98cc1fE43eafa3c/3b3515c7537efeaf.jpg"
+        },
+        {
+            "id": 1,
+            "src": "https://img13.360buyimg.com/n1/s450x450_jfs/t1/11352/31/13456/324178/5c98c88dE9419c2ca/4be2efca1d9e2b38.jpg"
+        },
+        {
+            "id": 2,
+            "src": "https://img12.360buyimg.com/n1/s450x450_jfs/t1/14022/19/12813/54849/5c9adb1fE63801e46/7ca13a7c3ec5aef8.jpg"
+        },
+        {
+            "id": 3,
+            "src": "https://img.alicdn.com/imgextra/i1/2616970884/O1CN0135p12f1IOudpLRbH7_!!0-item_pic.jpg_430x430q90.jpg"
+        }
+        
+    ]
+}
+

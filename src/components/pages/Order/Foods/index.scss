@@ -1,0 +1,48 @@
+.foodItem{
+    background: #fff;
+    padding: 0.15rem 0 0 0.1rem;
+    display: flex;
+    margin-bottom: .1rem;
+}
+.foodItem:last-child{
+    margin-bottom: 60px;
+}
+.title{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.foodName{
+    font-size: 15px;
+    line-height: .3rem;
+    color: #333;
+    font-weight: 500;
+}
+.ordercard-content{
+    margin-left: 12px;
+    width:100%;
+    padding-right: .2rem;
+}
+.orderCard{
+    width:.4rem;
+    img{
+        width:100%;
+    }
+}
+.datetime{
+    margin-bottom: .1rem;
+    font-size: 12px;
+}
+.ordercard-head{
+    border-bottom: 1px solid #f1f1f1;
+}
+.ordercard-detail{
+    display: flex;
+    justify-content: space-between;
+    height: .4rem;
+    align-items: center;
+}
+.price{
+    font-weight: 900;
+    color: #000;
+}

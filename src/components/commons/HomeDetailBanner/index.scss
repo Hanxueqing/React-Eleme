@@ -1,0 +1,96 @@
+.detail-left{
+    background: url("/u=1275900944\,311098575&fm=26&gp=0.jpg");
+    height: 1rem;
+    // position:absolute!important;
+    // top:0;
+    // left: 0;
+}
+.title{
+    padding-left: .18rem;
+    padding-left: 1.8vw;
+    color: #333;
+    font-size: .18rem;
+    font-weight: 700;
+    margin-bottom: .1rem;
+    margin-bottom: 1vw; 
+    margin-top: 0.2rem
+}
+.detail-banners{
+   
+    overflow-x: scroll;
+    display: -webkit-flex;
+    display: flex;     
+    
+}
+.food-box{
+    display: flex;
+}
+.food-sale{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    padding-right: .01rem;
+    padding-right: .1vw;
+   
+    .food-price{
+        display: inline-flex;
+        font-weight: normal;
+        color: rgb(255, 83, 57);
+        font-size: .16rem;
+    }
+    .btn{
+        display: -webkit-inline-flex;
+        display: inline-flex;
+        font-size: .14rem;
+        -webkit-align-items: center;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        width: .5rem;
+        width: 5vw;
+        height: .0.5rem;
+        height: 5vw;
+        color:#fff;
+        background:rgb(35, 149, 255);
+    }
+}
+.food-item{
+    -webkit-flex: none;
+    flex: none;
+    width: 3.2rem!important;
+    width: 32vw!important;
+    margin-right: .266667rem;
+    margin-right: 2.666667vw;
+    padding-bottom: 4.266667vw;
+}
+.food-card{
+    color: #333;
+    font-size: .136rem;
+    margin: .07rem 0 .037rem;
+    margin: 0.7vw 0 .37vw;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+
+}
+.food-card-desc{
+    color: #999;
+    font-size: .1rem;
+    margin-bottom: .07rem;
+    margin-bottom: 0.7vw;
+    min-height: 0.4em;
+}
+.food-img{
+    display: block;
+    width: 3.2rem;
+    width: 32vw;
+    height: 3.2rem;
+    height: 32vw;
+    border-top-left-radius: .08rem;
+    border-top-left-radius: .8vw;
+    border-top-right-radius: .08rem;
+    border-top-right-radius: .8vw;
+}

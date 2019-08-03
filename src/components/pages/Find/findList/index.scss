@@ -1,0 +1,87 @@
+.imgBox{
+    margin-bottom:0!important;
+    img{
+        width:100%
+    }
+}
+.header{
+    background:#fff;
+    height: 100px;
+    margin-bottom:10px;
+}
+.am-notice-bar{
+    background:#f0f0f0!important;
+}
+.lottery-info{
+    padding: .13rem .09rem .1rem;
+    .left{
+        float: left;
+        max-width: 1.75rem;
+        h3{
+            font-size: .14rem;
+            font-weight: 700;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            color: #333;
+        }
+        p{
+            margin-top: .1rem;
+            color: #999;
+            .origin-price{
+                text-decoration: line-through;
+            }
+        }
+    }
+    .right{
+        float: right;
+        padding-left: .09rem;
+        border-left: solid #efefef 1px;
+        .theme-color{
+            color: #ff6000;
+            strong{
+                font-size: .27rem;
+                font-weight: 400;
+                line-height: .35rem;
+            }
+            span{
+                margin-top: .14rem;
+                margin-left: .04rem;
+            }
+        }
+    }
+}
+.sl-section {
+    background:#fff;
+    .title {
+        margin: 0 .09rem;
+        padding: .09rem 0;
+        color: #999;
+        border-bottom: solid #eee 1px;
+        font-size: .1rem;
+    }
+    .description {
+        line-height: 1.428571429;
+        padding: .09rem .18rem .2rem;
+        color: #333;
+        p{
+            margin-bottom: .03rem;
+            strong{
+                color:rgb(230, 0, 0)
+            }
+        }
+    }
+    .apple {
+        line-height: .17rem;
+        text-align: center;
+        color: #ccc;
+        text-shadow: .01rem .01rem #fff;
+        padding: .09rem 0;
+        margin-bottom: .08rem;
+        background:#f5f5f9;
+    }
+}
+.video-react .video-react-big-play-button{
+    top: 50%!important;
+    left: 50%!important;
+    transform: translate(-50%,-50%);
+}

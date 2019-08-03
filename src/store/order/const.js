@@ -1,0 +1,2 @@
+const GET_FOODS_INFO = "GET_FOODS_INFO"
+export { GET_FOODS_INFO }

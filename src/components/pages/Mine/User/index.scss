@@ -1,0 +1,104 @@
+.message{
+    // display: -webkit-flex;
+    display: flex;
+    background-image: linear-gradient(90deg,#0af,#0085ff);
+    padding: .3rem .2rem;
+    // padding: 6.666667vw 4vw;
+    color: #fff;
+    // -webkit-align-items: center;
+    align-items: center;
+
+}
+.imageBox{
+    width:60px;
+    height:60px;
+    img{
+        border-radius: 50%;
+        width: 100%;
+        height: 100%;
+    }
+}
+.name{
+    margin-left:.2rem;
+    .name_title{
+        font-size: .25rem;
+        margin-bottom: .1rem;
+    }
+    .name_phone{
+        i{
+            margin-right:3px;
+        }
+    }
+}
+.middle{
+    width: 100%;
+    height: .8rem;
+    display: flex;
+    background:#fff;
+    border-bottom: 1px solid #ddd;
+    .middle_left{
+        border-right: 1px solid #ddd;
+        .spanBox{
+            color:rgb(255, 95, 62);
+            .redBag{
+                    font-size: 0.3rem;
+            }
+        }
+    }
+    .middle_right{
+        .spanBox{
+            color:rgb(106, 194, 11);
+            .number{
+                    font-size: 0.3rem;
+            }
+        }
+    }
+    .middle_content{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.linkList{
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin-top: .1rem;
+}
+.link-title{
+    width:85%;
+    border-bottom: 1px solid #f1f1f1;
+}
+.linkBox{
+    background: #fff;
+    display: flex;
+    line-height: .4rem;
+    align-items: center;
+    padding-left: .2rem;
+    color: #333;
+    font-size: 16px;
+    i{
+        margin-right: 0.15rem;
+        width: 20px;
+    }
+    .link-title{
+        width:100%;
+        .arrow{
+            i{
+                margin-left: 1.7rem;
+            }
+        }
+    }
+    .link-Box:last-child .link-title{
+        border:0
+    }
+}
+.exit{
+    margin-top: 0.3rem;
+    text-align: center;
+    font-size: .15rem;
+    button{
+        color: #4da6f0;
+    }
+}

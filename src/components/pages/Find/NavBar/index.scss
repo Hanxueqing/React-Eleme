@@ -1,0 +1,36 @@
+.headerBox{
+    // display:flex;
+    // position: fixed !important;
+    flex-direction:row;
+    height: 0.45rem;
+    align-items: center;
+    background:#fff;
+    position: relative;
+    .coin{
+        border-right: 1px solid #e5e5e5;
+        position: absolute;
+        top: 13px;
+    }
+    .record{
+        position: absolute;
+        margin-left: 50%;
+        top: 13px;
+    }
+    .fa{
+        margin-right:10px;
+    }
+    .headerItem{
+        float: left;
+        height:0.2rem;
+        padding: .075rem 0;
+        text-align: center;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .active{
+        color:orange;
+        font-weight:800;
+    }
+}

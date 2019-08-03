@@ -1,0 +1,20 @@
+.dinner-choose{
+    height: .4rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed!important;
+    top:40px!important;
+    left: 0!important;
+    background: white;
+    p{
+        margin: 0 10px;
+        color: #919191;
+        display: flex;
+        align-items: center;
+    }
+    .fa-sort-desc{
+        margin-left: 3px;
+    }
+}

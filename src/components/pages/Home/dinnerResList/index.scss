@@ -1,0 +1,112 @@
+.dinner_bigBox{
+    width:100%;
+    margin-bottom: 70px;
+    margin-top:85px;
+    .dinner_loadmore{
+        width:2.5rem;
+        height: 0.3rem;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 15px;
+        margin-left: 60px;
+        margin-top:10px;
+        line-height: 0.3rem;
+        display: flex;
+        justify-content: center
+    }
+    .dinner_backTop{
+        position: fixed;
+        bottom: 60px;
+        right: 0px;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        i{
+            font-size: 25px;
+            color: #666;
+        }
+    }
+}
+.dinner_outBox{
+    width:100%;
+    background: white;
+    padding:10px 5px;
+   
+    .dinner_insideBox-top{
+        display: flex;
+        .dinner_imgLeft{
+            height:.6rem;
+            width:.7rem;
+            float: left;
+            margin:5px 20px;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .dinner_content{
+            display: flex;
+            flex-direction: column;
+            width:100%;
+            margin-left: 15px;
+            .dinner_restaurant{
+               font-size: 15px; 
+               font-weight: 700;
+               padding: 5px 0;
+               width:2.6rem;
+               color:rgb(29, 29, 29);
+               white-space:nowrap;
+               overflow: hidden;
+               text-overflow: ellipsis;
+
+            }
+            .dinner_sell{
+                display: flex;
+                font-size: 12px;
+               padding: 3px 0;
+            }
+            .dinner_distance{
+                display: flex;
+                justify-content: space-between;
+                span{
+                    font-size: 11px;
+
+                }
+            }
+            .dinner_price{
+                margin-left: 5px;
+            }
+        }
+    }
+    .dinner_insideBox-foot{
+        margin-left: 100px;
+        .dinner_discount{
+            font-size: 11px;
+            margin:2px;
+            width:260px;
+            white-space:nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+
+        }
+        .dinner_icon{
+            margin:4px;
+            width: 18px;
+            height: 18px;
+            font-size: 11px;
+            color: whitesmoke;
+        }
+        .dinner_icon-J{
+            background: rgb(240, 115, 115);
+            border-radius: 2px;
+        }
+        .dinner_icon-Z{
+            background: rgb(240, 115, 115);
+            border-radius: 2px;
+
+        }
+    }
+    
+}
